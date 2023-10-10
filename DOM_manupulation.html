@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    
+<h1>Hello world</h1>
+<h1>Hello world 1</h1>
+<h1>Hello world 2</h1>
+<h1>Hello world 3</h1>
+ 
+
+
+<!--************************** Js DOM********************---->
+
+<!-- 
+*****************Query Selector***********
+
+const myh1=document.querySelector('h1')
+myh1
+<h1>​Hello world​</h1>​
+
+myh1.style.color="red"
+'red'
+myh1.style.border="2px solid black"
+'2px solid black'
+myh1.style.padding="10px"
+'10px'
+myh1.style.borderRadius="30px"
+'30px'
+myh1.style.color="blue"
+'blue'
+
+
+**************Query SelectorAll****************************
+
+const myh1s=document.querySelectorAll('h1')
+undefined
+myh1s
+NodeList(4) [h1, h1, h1, h1]0: h11: h12: h13: h1length: 4[[Prototype]]: NodeListentries: ƒ entries()forEach: ƒ forEach()item: ƒ item()keys: ƒ keys()length: 0name: "keys"arguments: (...)caller: (...)[[Prototype]]: ƒ ()apply: ƒ apply()arguments: (...)bind: ƒ bind()call: ƒ call()caller: (...)constructor: ƒ Function()length: 0name: ""toString: ƒ toString()Symbol(Symbol.hasInstance): ƒ [Symbol.hasInstance]()get arguments: ƒ ()set arguments: ƒ ()get caller: ƒ ()set caller: ƒ ()[[FunctionLocation]]: [[Prototype]]: Object[[Scopes]]: Scopes[0][[Scopes]]: Scopes[0]No propertieslength: (...)values: ƒ values()constructor: ƒ NodeList()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.toStringTag): "NodeList"get length: ƒ length()[[Prototype]]: Object
+myh1s[1].style.borderR
+undefined
+myh1s[1].style.borderRadius="30px"
+'30px'
+myh1s[1].style.border="2px dashed black"
+'2px dashed black'
+myh1s[1].style.padding="20px"
+'20px'
+myh1s[1].style.padding="10px"
+'10px'
+myh1s[2].style.border="2px dotted black"
+'2px dotted black'
+myh1s[2].style.padding="20px"
+'20px'
+myh1s[2].style.padding="15px"
+'15px'
+myh1s[2].style.borderBlockColor="yellow"
+'yellow'
+myh1s[2].style.borderBlockColor="red"
+'red'
+myh1s[2].style.borderBlockEndColor="white"
+'white'
+myh1s[2].style.borderBlockEndColor="red"
+'red'
+myh1s[2].style.borderInlineColor="red"
+'red'
+myh1s.forEach(function (item) {
+    item.style.color="green"
+})
+
+ -->
+
+
+
+
+</body>
+</html>
