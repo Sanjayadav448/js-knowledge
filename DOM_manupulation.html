@@ -13,7 +13,9 @@
 <h1>Hello world 3</h1>
  <h3>Heading 4</h3>
  <h5>Heading 5</h5>
+<div class="div">
 
+</div>
  <script>
 
 const myh1=document.querySelector('h1')
@@ -30,6 +32,14 @@ myh2[1].style.padding="20px"
 myh2[1].style.borderRadius="30px"
 myh2[1].style.color="#fff"
 myh2[1].style.backgroundColor="#f13333"
+
+const newDiv=document.createElement('h1');
+newDiv.innerText="CreteElement";
+newDiv.style.border="2px solid black";
+newDiv.style.padding="10px"
+document.querySelector('div').appendChild(newDiv);
+
+
 
  </script>
 
